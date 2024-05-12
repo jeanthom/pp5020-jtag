@@ -4,6 +4,10 @@ Documenting things I discovered while messing around with JTAG on a PP5020 PMP.
 
 ## JTAG pinout of an iRiver H10
 
+Everything is on the silkscreen :-)
+
+![Picture of iRiver H10's PCB showing labeled and unsoldered JTAG pads](jtag-pinout.jpg)
+
 ## Issues halting
 
 For some reason I wasn't able to halt the ARM core, preventing any meaningful usage of the JTAG TAP. In order to fix this issue, I had to plug a hard drive to my iRivier H10. The PMP I bought had a broken hard drive flex cable, which I unsoldered and replaced with the flex cable from an iPod 4G.
